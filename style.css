@@ -1,0 +1,86 @@
+/*============= GENERAL ================*/
+body, h1 {
+	margin: 0;
+	list-style-type: none;
+	font-family: sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+.header-container, .main-container, .footer-container {
+	max-width: 975px;
+	margin: auto;
+}
+
+/*============== END-GENERAL ============*/
+
+/*================== HEADER ============*/
+header {
+	background-color: #3c5a99;
+	color: #fff;
+	position: relative;
+	height: 82px;
+	border-bottom: #1a356e;
+	box-shadow: 0 2px 0 #7f8698;
+}
+
+header h1 {
+	padding-top: 38px;
+}
+
+.connexion {
+	position: absolute;
+	left: 50%;
+	top: 0;
+}
+
+.connexion p {
+	display: inline-block;
+	margin: 0 18px 0 0;
+	font-size: .8em;
+	width: 173px;
+	line-height: 2;
+	vertical-align: middle;
+}
+
+.connect {
+	color: #fff;
+	background-color: #5c74a9;
+	font-weight: bold;
+	border: 1px solid #1a356e;
+	padding: 4px;
+}
+
+.keep-active, .forget {
+	color: #9daccb;
+}
+
+/*============= END-HEADER ============*/
+
+/*============== MAIN ==============*/
+section {
+	background-image: linear-gradient (white, rgb(212, 217, 232));
+	height: 480px;
+	width: 100%;
+}
+
+aside, article {
+	display: inline-block;
+	vertical-align: top;
+}
+
+aside {
+	width: 50%;
+	height: 100%;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #0e3881;
+	background: url('fb_network.png') no-repeat;
+}
+
+article {
+	width: 40%;
+}
+/*============== END-MAIN ==========*/
